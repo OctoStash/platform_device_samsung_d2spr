@@ -12,6 +12,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="samsung/d2spr/d2spr:4.1.2/JZO54K/L710VPBMD4:user/release-keys" \
     PRIVATE_BUILD_DESC="d2spr-user 4.1.2 JZO54K L710VPBMD4 release-keys"
 
-PRODUCT_NAME := cm_d2spr
+PRODUCT_NAME := oct_d2spr
 PRODUCT_DEVICE := d2spr
 
