@@ -26,6 +26,6 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/d2-common/overlay-cdma
 # Inherit from d2-common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)
 
-# GSM SPN overrides list
+# GSM APN overrides list
 PRODUCT_COPY_FILES += \
-    device/samsung/d2-common/etc/spn-conf.xml:system/etc/spn-conf.xml
+    device/samsung/d2-common/etc/apns-conf.xml:system/etc/apns-conf.xml
